@@ -1,0 +1,139 @@
+.nav{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    background-color: #f8e874;
+    height: 80px;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(228, 204, 208),rgb(218, 198, 235),rgb(212, 174, 192));
+}
+
+
+.main-container{
+background-color: rgb(231, 213, 131);
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    top:10px;
+    left: 20rem;
+    width: 82.5rem;
+    border-radius:0 45px 45px 0;
+
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    background-color:rgb(223, 216, 134);
+    width: 1000px;
+    height: 400px;
+    margin-top: 40px;
+    border: 1px solid black;
+    margin-left: 155px;
+    border-radius: 45px;
+   
+}
+.content{
+    border-radius: 45px;
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+    flex-direction: column;
+    background-color:rgb(255, 255, 255);
+    height: 380px;
+    width: 80%;
+}
+.box{
+    background-color:rgb(230, 112, 134);
+    height: 60px;
+    width: 100%;
+    border-radius: 45px;
+
+}
+
+.aside{
+    
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    position: absolute;
+    top: 90px;
+    background-color: aquamarine;
+    height: 1320px;
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid black;
+    left:15px ;
+  
+}
+
+#main-text{
+    position:absolute;
+     font-family: 'Allison', cursive;
+     font-size: 3.8rem;
+     margin-left: 4rem;
+}
+
+.list{
+    font-size: 1.5rem;
+    font-family:courgette;
+
+}
+
+.aside-box{
+    
+    border-radius: 15px;
+    background-color:white;
+    height:70px;
+    width:100%;
+    border: 1px solid black;
+}
+
+
+::-webkit-scrollbar {
+    width: 16px;
+    background-color: #ffffff;
+    }
+    ::-webkit-scrollbar-thumb{
+    background-color: #e2ac24;
+    border-radius:10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+    background-color: #9b7b29;
+    border-radius:10px;
+    }
+    ::-webkit-scrollbar-track-piece{
+    background: #ade0d8; 
+    border-radius:10px;
+    }
+    ::-webkit-scrollbar-corner {
+    background: #d0cecb; 
+    }
+
+
+    ::-webkit-scrollbar {
+    width: 16px;
+    background-color: #ffffff;
+    }
+    ::-webkit-scrollbar-thumb{
+    background-color: #dabb6d;
+    border-radius:10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+    background-color: #9ba158;
+    border-radius:10px;
+    }
+    ::-webkit-scrollbar-track-piece{
+    background: #afdfd8; 
+    border-radius:10px;
+    }
+
+    .scrollbar{
+        height: 450px; overflow-x: hidden; overflow-y: scroll;
+    }
+
